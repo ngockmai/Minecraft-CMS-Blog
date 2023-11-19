@@ -51,14 +51,14 @@ There are three types of uses: non-users, users, and admins
 
 ### Some screenshot of this project:
 
-#### Homepage
+#### Homepage:
 
 ![Homepage](/screenshots/homepage.jpg)
 
-### Post-detail page
+#### Post-detail page:
 
 ![Post-detail](/screenshots/post_details_page.jpg)
 
-### Admin dashboard page
+#### Admin dashboard page:
 
 ![Admin dashboard](/screenshots/admin_dashboard_page.jpg)
