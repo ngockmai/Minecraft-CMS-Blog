@@ -8,7 +8,7 @@ This is a CMS Website, which stores information about resources for the Minecraf
 
 - PHP is used for backend side
 - HTML, CSS and JavaScript for front-end side
-- MySQL for database
+- MySQL for database.
 
 ### Users roles:
 
@@ -19,6 +19,9 @@ There are three types of uses: non-users, users, and admins
 - Admins: they can do all CRUD, but they can publish posts, comments that are created by others (users, admins)
 
 ### Database structure and description:
+
+- A demo database can be found [here](/database/minecraft-blog%20.sql)
+- Draw io version I developed can be found [here](/database/minecraft-blog.drawio)
 
 ![My Image](./database/minecraft-blog.jpeg)
 
@@ -39,6 +42,23 @@ There are three types of uses: non-users, users, and admins
   - Usernames & passwords are stored in a users table with CRUD admin access
   - Passwords stored in database are hashed and salted
 - User login:
+
   - Users can login to Admin portal
   - Users can register an account with a username and a password
+  - User demo: khuongmai@gmail.com | password: 123456
+
 - Deploy to a cloud service.
+
+### Some screenshot of this project:
+
+#### Homepage
+
+![Homepage](/screenshots/homepage.jpg)
+
+### Post-detail page
+
+![Post-detail](/screenshots/post_details_page.jpg)
+
+### Admin dashboard page
+
+![Admin dashboard](/screenshots/admin_dashboard_page.jpg)
